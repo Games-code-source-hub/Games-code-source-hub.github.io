@@ -8,12 +8,69 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+      #column {
+        margin-top: 2%;
+      }
+
+      #justify { 
+      text-shadow: 0.5px 0.5px black;
+      margin-top: 10%;
+      }
+
+      #description {
+      width: 430px;
+      margin-left: 20%;
+      margin-top: 10%
+      }
+
+      #tablet {
+
+      }
+
+      #page {
+      }
+
+      #tablet-img {
+        width: 200px;
+      }
+    </style>
   </head>
   <body>
+      <header>
+        <div class="container" id="header">
+          <div class="row">
+            <div class="col-6" id="column"><img class="" src="img/site/logo.png"></div>
+            <nav class="nav justify-content-around">
+            <div class="col-6" id="justify">
+                <ul class="navbar-nav mr-auto">
+                  <li class="navbar-item active"><a class="nav-link">Преимущества</a></li>
+                  <li class="navbar-item"><a class="nav-link">Галерея</a></li>
+                  <li class="navbar-item"><a class="nav-link">Контакты</a></li>
+                </ul>
+            </div>
+            </nav>
+          </div>
+        </div>
+      </header>
 
-    div[box]>(li[class="r"]*3)
-    
+    <section id="banner">
+      <div class="col-6" id="description">
+        <h1>САЙТ-ВИЗИТКА</h1>
+        <p> - одна или несколько страниц в интернете,
+            расположенных на одном доменном имени, предоставляющая 
+            общую информацию о владельце, основной перечень услуг, 
+            товаров, контактные данные и раздел с ответами на основные вопросы
+        </p>
+      </div>
+      <div class="col-6" id="tablet">
+        <img src="img/site/tablet.png" id="tablet-img">
+      </div>
+    </section>
 
+    <section id="info"></section>
+
+    <footer></footer>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
