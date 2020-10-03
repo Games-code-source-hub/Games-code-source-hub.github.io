@@ -36,3 +36,21 @@
   #info-row-2 {
     margin-top: 7%;
   }
+
+  footer {
+      background-color: black;
+      margin-top: 80pt; 
+      height: 650px;
+  }
+
+  #footer-up-text-1 {
+      color: white;
+      margin-top: 80pt;
+      text-align: center;
+  }
+
+  #footer-up-text-2 {
+    color: red;
+    margin-top: 10pt;
+    text-align: center;
+}
