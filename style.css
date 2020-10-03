@@ -1,3 +1,38 @@
-#description {
-    width: 140px;
-}
+#column {
+    margin-top: 2%;
+  }
+
+  #justify { 
+  text-shadow: 0.5px 0.5px black;
+  margin-top: 10%;
+  }
+
+  #description {
+  width: 430px;
+  margin-left: 0%;
+  margin-top: 10%
+  }
+
+  #banner {
+    margin-top: 4%;
+  }
+
+  #page {
+  }
+
+  #tablet-img {
+    width: 500px;
+  }
+
+  #info-main-text {
+      margin-top: 4%;
+      text-align: center;
+  }
+
+  #info-row-1 {
+    margin-top: 7%;
+  }
+
+  #info-row-2 {
+    margin-top: 7%;
+  }
