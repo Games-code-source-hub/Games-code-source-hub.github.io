@@ -15,26 +15,32 @@
   <div id="nav-banner">
     <header>
       <div class="container" id="header">
-        <div class="row">
-          <div class="col-6" id="column"><img class="" src="img/site/logo.png">
-            <!-- <strong style="font-family: 'PT Sans', sans-serif; font-size: 20pt; margin-left: 10pt; font-weight: bold;">Логотип</strong> -->
-          </div>
-          <div class="col-6" id="justify" style="margin-top: 12pt;">
-          <nav class="navbar navbar-expand-lg .collapse.navbar-collapse">
-                <div class="hamburger">
-                  <div class="line"></div>
-                  <div class="line"></div>
-                  <div class="line"></div>
+            <div class="row">
+                <div class="col-lg-12">
+
+                    <nav style="" id="menu" role="navigation" class="navbar navbar-expand-sm navbar-dark">
+                        <a class="navbar-brand ml-1" href="#"><img src="https://cdn.discordapp.com/attachments/757158005736472586/759380151284400168/logo.png"></a>
+                        <button id="lines_3" class="navbar-toggler bg-link" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                        <span class="navbar-toggler-icon"></span>   
+                        </button>
+                        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                            <ul class="navbar-nav" id="first_link">
+                                <li class="nav-item active ml-3">
+                                    <a class="nav-link" href="#info"><i>Info</i></a>
+                                </li>
+                                <li class="nav-item ml-3">
+                                    <a class="nav-link" href="#"><i>Disabled</i></a>
+                                </li>
+                                <li class="nav-item ml-3">
+                                    <a class="nav-link" href="#footer"><i>Contact us</i></a>
+                                </li>
+                            </ul>
+                        </div>    
+                    </nav>
+
                 </div>
-            <ul class="nav-links">
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
-            <li><a href="#">Project</a></li>
-            </ul>
-          </nav>
-         </div>
+            </div>
         </div>
-      </div>
     </header>
 
     <section id="banner">
@@ -51,13 +57,13 @@
             </p>
             <p style="text-align: left; line-height: 0.9;">ещё более важный текст ещё более важный текст
             </p>
-            <div class="container" style="margin-top: 80pt;">
-              <i class="fab fa-5x fa-apple" style="margin-right: 20pt;"></i>
-              <i class="fab fa-5x fa-android"></i>
-              <i class="fab fa-5x fa-windows" style="margin-left: 20pt;"></i>
+            <div class="container" id="icon_block" style="margin-top: 80pt;">
+              <i id="icon_apple" class="fab fa-3x fa-apple" style="margin-right: 20pt;"></i>
+              <i id="icon_android" class="fab fa-3x fa-android"></i>
+              <i id="icon_windows" class="fab fa-3x fa-windows" style="margin-left: 20pt;"></i>
             </div>
           </div>
-          <div class="col-6" style="margin-bottom: 90pt;">
+          <div class="col-lg-6 text-center" style="margin-bottom: 90pt;">
             <img src="img/site/tablet.png" id="tablet-img">
           </div>
         </div>
@@ -72,7 +78,7 @@
     </div>
     <div class="container">
       <div class="row" id="info-row-1">
-        <div class="col-4">
+        <div class="col-4" id="min-panel">
           <i class="fas fa-3x fa-tablet-alt" style="margin-left: 6pt;"></i>
           <div class="d-inline-block">
             <div style="margin-left: 27pt;">
@@ -81,7 +87,7 @@
             </div>
           </div>
         </div>
-        <div class="col-4">
+        <div class="col-4" id="min-panel">
           <i class="far fa-3x fa-lemon"></i>
           <div class="d-inline-block">
             <div style="margin-left: 20pt;">
@@ -90,7 +96,7 @@
             </div>
           </div>
         </div>
-        <div class="col-4">
+        <div class="col-4" id="min-panel">
           <i class="far fa-3x fa-folder"></i>
           <div class="d-inline-block">
             <div style="margin-left: 20pt;">
@@ -101,7 +107,7 @@
         </div>
       </div>
       <div class="row" id="info-row-2">
-        <div class="col-4">
+        <div class="col-4" id="min-panel">
           <i class="fas fa-3x fa-code"></i>
           <div class="d-inline-block">
             <div style="margin-left: 20pt;">
@@ -110,7 +116,7 @@
             </div>
           </div>
         </div>
-        <div class="col-4">
+        <div class="col-4" id="min-panel">
           <i class="far fa-3x fa-envelope"></i>
           <div class="d-inline-block">
             <div style="margin-left: 20pt;">
@@ -119,7 +125,7 @@
             </div>
           </div>
         </div>
-        <div class="col-4">
+        <div class="col-4" id="min-panel">
           <i class="far fa-3x fa-bookmark" style="margin-left: 6pt;"></i>
           <div class="d-inline-block">
             <div style="margin-left: 20pt;">
@@ -131,7 +137,7 @@
       </div>
     </div>
   </section>
-  <footer class="page-footer font-small black pt-4">
+  <footer class="page-footer font-small black pt-4" id="footer">
     <h1 id="footer-up-text-1" style="margin-top: 30pt;">Свяжитесь с нами</h1>
     <h4 id="footer-up-text-2">Или мы найдём вас сами</h4>
     <div id="input-block" class="row justify justify-content-center" style="margin-top: 70pt;">

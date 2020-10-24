@@ -87,59 +87,50 @@ div.container>div.row>div.col-4>i{
   text-decoration: none;
 }
 
-@media screen and (max-width: 800px){
-  .line {
-    width: 30px;
-    height: 3px;
-    background: white;
-    margin: 5px;
-  }
-  
-  #justify{
-    position: absolute;
-    cursor: pointer;
+.body {
+  width: 100%;
+}
+
+@media screen and (max-width: 1205px) {
+  body {
+    margin-left: 0%;
   }
 
-  .nav-links {
-    position: fixed;
-    height: 100vh;
-    width: 100%;
-    flex-direction: column;
-    clip-path: circle(100px at 90% -10%);
-    -webkit-clip-path: circle(1000px at 90%  -10);
-    transition: all 1s ease-out;
+  #tablet-img {
+    width: 315px;
+    height: 400px;
+    margin-top: auto;
+    margin-bottom: 10px;
   }
 
-  .nav-links.open{
-    clip-path: circle(100px at 90% -10%);
-    -webkit-clip-path: circle(100px at 90%  -10); 
-  }
-
-  .nav-li {
-    display: block;
-    float: none;
-    width: 100%;
-  }
-
-  .nav li a {
-    border-bottom: 1px solid #576979;
-  }
-
-  .nav {
-    position: relative;
-  }
-  
-  .hamburger {
-    position: absolute;
-    cursor: pointer;
+  #description {
     margin-left: auto;
-    right: 5%;
-    top: 20%;
-    transform: translate(-5, -50%); 
+    margin-right: auto;
   }
 
-  header {
-    flex-direction: column;
-    align-items: flex-start;
+  #first-link {
+    margin-left: auto;
+  }
+
+  * {
+    box-sizing: content-box;
+  }
+
+  #icon_block {
+    margin-top: 0%;
+    display: inline-flex;
+    justify-content: center;
+  }
+
+  #icon_windows {
+    margin-left: 0px;
+  }
+
+  #icon_apple {
+    margin-right: 0px;
+  }
+
+  #banner {
+    margin-bottom: 10px;
   }
 }
