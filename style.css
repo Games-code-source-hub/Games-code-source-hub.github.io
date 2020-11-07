@@ -63,7 +63,7 @@ header {
   align-items: center;
 }
 
-#nav-banner {
+#navigation {
   background-image: url(img/site/background.jpg);
   background-size: cover;
 }
@@ -102,28 +102,25 @@ div.container>div.row>div.col-4>i {
   #description {
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 0vh;
+    max-width: 100%;
   }
 
   #first-link {
     margin-left: auto;
   }
 
-  * {
-    box-sizing: content-box;
-  }
-
   #icon_block {
-    margin-top: 0vh;
-    display: inline-flex;
+    margin-bottom: 10vh;
     justify-content: center;
   }
 
   #icon_windows {
-    margin-left: 0px;
+    margin-left: 0rem;
   }
 
   #icon_apple {
-    margin-right: 0px;
+    margin-right: 0rem;
   }
 
   #banner {
@@ -131,7 +128,6 @@ div.container>div.row>div.col-4>i {
   }
 
   #elem1 {
-    width: 80vw;
+    width: 50vw;
   }
-
 }

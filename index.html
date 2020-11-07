@@ -12,11 +12,11 @@
 
 <body>
 
-  <div id="nav-banner">
+  <div id="navigation">
     <header>
       <div class="container" id="header">
         <div class="row">
-          <div class="col-lg-12">
+          <div class="col-lg">
 
             <nav style="" id="menu" role="navigation" class="navbar navbar-expand-sm navbar-dark">
               <a class="navbar-brand ml-1" href="#"><img
@@ -31,7 +31,7 @@
                     <a class="nav-link" href="#info"><i>Info</i></a>
                   </li>
                   <li class="nav-item ml-3">
-                    <a class="nav-link" href="#"><i>Disabled</i></a>
+                    <a class="nav-link" href="../twic69.github.io/SubPages/Gallery/gallery.html"><i>Gallery</i></a>
                   </li>
                   <li class="nav-item ml-3">
                     <a class="nav-link" href="#footer"><i>Contact us</i></a>
@@ -60,12 +60,12 @@
             <p style="text-align: left; line-height: 0.9;">ещё более важный текст ещё более важный текст
             </p>
             <div class="container" id="icon_block" style="margin-top: 80pt;">
-              <i id="icon_apple" class="fab fa-3x fa-apple" style="margin-right: 20pt;"></i>
+              <i id="icon_apple" class="fab fa-3x fa-apple" style="margin-right: 2rem;"></i>
               <i id="icon_android" class="fab fa-3x fa-android"></i>
-              <i id="icon_windows" class="fab fa-3x fa-windows" style="margin-left: 20pt;"></i>
+              <i id="icon_windows" class="fab fa-3x fa-windows" style="margin-left: 2rem;"></i>
             </div>
           </div>
-          <div class="col-lg-6 text-center" style="margin-bottom: 90pt;">
+          <div class="col-md-4 text-center" id="tablet-div" style="margin-bottom: 90pt;">
             <img src="img/site/tablet.png" id="tablet-img">
           </div>
         </div>
@@ -74,40 +74,58 @@
   </div>
 
   <section id="info">
-  <div class="container">
-    <div id="info-main-text" style="vertical-align: super;">
-      <h1>Работает?</h1>
-      <p style="font-size: 14pt;"><b>вроде работает</b></p>
-    </div>
-    
+    <div class="container">
+      <div id="info-main-text" style="vertical-align: super;">
+        <h1>Работает?</h1>
+        <p style="font-size: 14pt;"><b>вроде работает</b></p>
+      </div>
+
       <div class="row" id="info-row-1">
-					<div class="col-lg-4 mb-5">
-							<i class="fas fa-4x fa-tablet-alt mr-1" style="vertical-align: super;"></i>
-							<div class="d-inline-block"><h2 class="tx3">Адаптивка</h2><p class="tx4" style="color: hsla(0, 0%, 0%, 0.7);">Которой нет</p></div>
-					</div>
-					<div class="col-lg-4 mb-5">
-							<i class="far fa-4x fa-lemon mr-1" style="vertical-align: super;"></i>
-							<div class="d-inline-block"><h2 class="tx3">Элементы PSD</h2><p class="tx4" style="color: hsla(0, 0%, 0%, 0.7);">Причём тут лимон?</p></div>
-					</div>
-					<div class="col-lg-4 mb-5">
-							<i class="far fa-4x fa-folder mr-1" style="vertical-align: super;"></i>
-							<div class="d-inline-block"><h2 class="tx3">Классные иконки</h2><p class="tx4" style="color: hsla(0, 0%, 0%, 0.7);">ок</p></div>
-					</div>
-           		</div>
-                <div class="row" id="info-row-2">
-					<div class="col-lg-4 mb-5">
-							<i class="fas fa-4x fa-code mr-1" style="vertical-align: super;"></i>
-							<div class="d-inline-block"><h2 class="tx3">HTML & CSS</h2><p class="tx4" style="color: hsla(0, 0%, 0%, 0.7);">а js</p></div>
-					</div>
-					<div class="col-lg-4 mb-5">
-							<i class="far fa-4x fa-envelope mr-1" style="vertical-align: super;"></i>
-							<div class="d-inline-block"><h2 class="tx3">Обратная связь</h2><p class="tx4" style="color: hsla(0, 0%, 0%, 0.7);">Там снизу</p></div>
-					</div>
-					<div class="col-lg-4 mb-5">
-							<i class="far fa-4x fa-bookmark mr-1" style="vertical-align: super;"></i>
-							<div class="d-inline-block"><h2 class="tx3">Инт. верстка</h2><p class="tx4" style="color: hsla(0, 0%, 0%, 0.7);">что</p></div>
-					</div>
-            	</div>
+        <div class="col-lg-4 mb-5">
+          <i class="fas fa-4x fa-tablet-alt mr-1" style="vertical-align: super;"></i>
+          <div class="d-inline-block">
+            <h2 class="tx3">Адаптивка</h2>
+            <p class="tx4">Которой нет</p>
+          </div>
+        </div>
+        <div class="col-lg-4 mb-5">
+          <i class="far fa-4x fa-lemon mr-1" style="vertical-align: super;"></i>
+          <div class="d-inline-block">
+            <h2 class="tx3">Элементы PSD</h2>
+            <p class="tx4">Причём тут лимон?</p>
+          </div>
+        </div>
+        <div class="col-lg-4 mb-5">
+          <i class="far fa-4x fa-folder mr-1" style="vertical-align: super;"></i>
+          <div class="d-inline-block">
+            <h2 class="tx3">Классные иконки</h2>
+            <p class="tx4">ок</p>
+          </div>
+        </div>
+      </div>
+      <div class="row" id="info-row-2">
+        <div class="col-lg-4 mb-5">
+          <i class="fas fa-4x fa-code mr-1" style="vertical-align: super;"></i>
+          <div class="d-inline-block">
+            <h2 class="tx3">HTML & CSS</h2>
+            <p class="tx4">а js</p>
+          </div>
+        </div>
+        <div class="col-lg-4 mb-5">
+          <i class="far fa-4x fa-envelope mr-1" style="vertical-align: super;"></i>
+          <div class="d-inline-block">
+            <h2 class="tx3">Обратная связь</h2>
+            <p class="tx4">Там снизу</p>
+          </div>
+        </div>
+        <div class="col-lg-4 mb-5">
+          <i class="far fa-4x fa-bookmark mr-1" style="vertical-align: super;"></i>
+          <div class="d-inline-block">
+            <h2 class="tx3">Инт. верстка</h2>
+            <p class="tx4">что</p>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
   <footer class="page-footer font-small black pt-4" id="footer">
@@ -117,7 +135,7 @@
       <div id="input-block" style="margin-top: 50px;">
         <div class="row">
           <input id="elem1" type="email" class="form-control"
-            style="margin-left: auto; margin-right: auto; max-width: 600px;" placeholder="Введите название религии">
+            style="margin-left: auto; margin-right: auto; max-width: 660px;" placeholder="Введите название религии">
         </div>
         <div class="row">
           <button type="button" id="acceptbutton" class="btn btn-danger"
