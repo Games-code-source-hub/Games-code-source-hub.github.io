@@ -63,7 +63,7 @@
     align-items: center;
   }
   
-  #navigation {
+  body {
     background-image: url(img/site/background.jpg);
     background-size: cover;
   }
